@@ -8,7 +8,7 @@ describe('User can see a list of projects', () => {
     cy.get('#project-1').within(() => {
       cy.get(('.image')).should('exist');
       cy.get('.ui.header').should('contain', 'My First Website');
-      cy.get('.description').should('contain', 'This was my first project. The guy lost, but won the popular vote!');
+      cy.get('.description').should('contain', 'This is my Blog in spanish, i have a career as an author, and i have been active blogging since the last decade');
     })
   })
 
