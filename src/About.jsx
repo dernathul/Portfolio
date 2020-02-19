@@ -9,13 +9,17 @@ const About = () => {
         <UndrawBeTheHero />
       </div>
         <div className="column">
-          <h1 className="ui header">About Me</h1>
+          <h1 className="ui header">Hello, my name is Lau</h1>
           <p>
-          I am a father of two boys, who has learned multiple skills across life. I have lived in several cities in different countries, falling in love with Sweden since i first came in 2016.
-          I have learned programming by a fullstack developer Bootcamp in Craft Academy, in Göteborgs. I love to code and its applications, but i also love to learn more about this ever changing field.
+          I am a father of two boys, who has learned multiple skills across life. I have lived in several cities in different countries, falling in love with Sweden since I first came for vacations in 2013, since 2016 with my wife we moved here to start a family.
+          I have learned programming by a fullstack developer Bootcamp in Craft Academy, in Göteborgs. I love to code and its applications, but i also love to learn more about this ever changing field. 
+          I have published two short stories books in spanish, had my own restaurant in Chile and meet amazing people along life. I have many friends and i try to always leave a positive footprint with my way to be.
           </p> 
           <div id="lautarox">
         <img src="src/images/lautaro.jpg" />
+        <img src="src/images/mrlau.jpg" />
+        <img src="src/images/bubbagump.jpg" />
+        <img src="src/images/peques.jpg" />
        </div>     
         </div>
       </div>
