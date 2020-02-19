@@ -38,8 +38,8 @@ class Projects extends Component {
           <div className="column">
             <h1 className="ui header">My Projects</h1>
             <p>
-              I started my journey in IT by working as a tester and technitian in a Stockholm Start Up called Perific Technologies AB and at the same time in CaCharge AB, in the IOT subfield. 
-              Since i started my studies in Craft Academy i have work in this projects.
+              I started my journey in IT by working as a tester and technician in a Stockholm Start Up called Perific Technologies AB and at the same time in CaCharge AB, in the IOT subfield. 
+              Since i started my studies in Craft Academy i have work in the projects contained in this portfolio.
             </p>
           </div>
         </div>
