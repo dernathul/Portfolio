@@ -4,11 +4,11 @@ import { UndrawBeTheHero } from "react-undraw-illustrations";
 const About = () => {
   return (
     <div className="ui main container">
-      <div class="ui stackable two column grid">
-      <div class="column">
+      <div className="ui stackable two column grid">
+      <div className="column">
         <UndrawBeTheHero />
       </div>
-        <div class="column">
+        <div className="column">
           <h1 className="ui header">About Me</h1>
           <p>
           I am a father of two boys, who has learned multiple skills across life. I have lived in several cities in different countries, falling in love with Sweden since i first came in 2016.
