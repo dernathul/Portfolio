@@ -20,5 +20,8 @@ footer {
     max-width: 400px;
     width: 240px;
     height: 240px;
-
+  }
+  #fullstack img {
+    width: 100%;
+    height: auto;
   }
