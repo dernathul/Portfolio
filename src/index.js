@@ -8,6 +8,8 @@ import Experience from "./Experience";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Projects from "./Projects";
 import About from "./About";
+import Contact from "./Contact";
+
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
         <Route exact path="/projects" component={Projects}></Route>
         <Route exact path="/education" component={Education}></Route>
         <Route exact path="/experience" component={Experience}></Route>
+        <Route exact path="/contact" component={Contact}></Route>
       </Switch>
       <Footer />
     </>
