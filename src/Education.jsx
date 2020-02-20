@@ -24,20 +24,20 @@ class Education extends Component {
     if (education.length > 0) {
       educationList = education.map(item => {
         return (
-          <div id={'education-' + item.id} key={item.id}>
+          <div id={'education-' + item.id} key={item.id} class="responsive">
             <EducationCard education={item} />
           </div>
         );
       });
     }
     return (
-      <div className="ui main container">
+      <div className="ui main container" style={{color: "red"}}>
         <div className="ui stackable two column grid">
           <div className="column">
             <UndrawUpload />
           </div>
           <div className="column">
-            <h1 className="ui header">Education</h1>
+            <h1 className="ui header" style={{color: "red"}}>Education</h1>
 
           </div>
         </div>

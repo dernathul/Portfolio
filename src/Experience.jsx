@@ -24,7 +24,7 @@ class Experience extends Component {
     if (experience.length > 0) {
         experienceList = experience.map(item => {
         return (
-          <div id={'experience-' + item.id} key={item.id}>
+          <div id={'experience-' + item.id} key={item.id} class="responsive">
             <ExperienceCard experience={item} />
           </div>
         );
