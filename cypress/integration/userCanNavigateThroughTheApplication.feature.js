@@ -45,6 +45,10 @@ describe('User can navigate the app', () => {
     it('does not display Hello world', () => {
       cy.get('#hello').should('not.exist');
     });
+
+    it('does not display Experience header ', () => {
+      cy.get('#experience-header').should('not.exist');
+    });
   });
 
   describe('back to My Portfolio/Hello tab and it',() => {
@@ -55,6 +59,10 @@ describe('User can navigate the app', () => {
 
     it('displays Fullstack Developer', () => {
       cy.get('#hello').should('contain', 'Fullstack Developer');
+    });
+
+    it('displays Education', () => {
+      cy.get('#education').should('contain', 'Education');
     });
 
     it('displays correct url', () => {

@@ -31,7 +31,7 @@ class Experience extends Component {
       });
     }
     return (
-      <div className="ui main container">
+      <div className="ui main container"style={{color: "red"}}>
         <div className="ui stackable two column grid">
           <div className="column">
           <UndrawWorkTime />

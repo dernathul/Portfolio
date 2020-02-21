@@ -1,8 +1,8 @@
 import React from "react";
 import UndrawEmailCapture from "react-undraw-illustrations/";
-<div>
+
 <UndrawEmailCapture />
-</div>
+
 
 const encode = (data) => {
     return Object.keys(data)
@@ -13,7 +13,7 @@ const encode = (data) => {
   }
   class ContactForm extends React.Component {
     constructor(props) {
-       
+        
       super(props);
       this.state = { name: "",company: "", email: "", message: "" };
     }
@@ -34,10 +34,12 @@ const encode = (data) => {
     render() {
        
       const { name,  company, email, message } = this.state;
+      
       return (
+          
           <div className="ui container">
         <form className="ui form" onSubmit={this.handleSubmit}>
-            
+        
           <div className="form">
             <label>
               Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
@@ -58,6 +60,7 @@ const encode = (data) => {
               Message: <textarea name="message" value={message} onChange={this.handleChange} />
             </label>
           </p>
+          
           <p>
             <button type="submit">Send</button>
           </p>
