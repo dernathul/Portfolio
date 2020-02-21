@@ -6,9 +6,15 @@ const About = () => {
     <div className="ui main container">
       <div className="ui stackable two column grid">
       <div className="column">
-        <UndrawBeTheHero />
+        
+        
+
+      <div class='content'>
+      <UndrawBeTheHero alt="banner"/>
+      </div>
       </div>
         <div className="column">
+        
           <h1 className="ui header">Hello, my name is Lau</h1>
           <p>
           I am a father of two boys, who has learned multiple skills across life. I have lived in several cities in different countries, falling in love with Sweden since I first came for vacations in 2013, since 2016 with my wife we moved here to start a family.

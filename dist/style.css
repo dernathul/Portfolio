@@ -10,6 +10,12 @@ footer {
     margin-bottom: 0;
     text-align: center;
   }
+  
+  .content {
+    margin-left:15%;
+    margin-block-start: 60px;
+    position: absolute;
+  }
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -31,7 +37,7 @@ p {
 }
 
   #lautarox img {
-    max-height: 260px;
+    max-height: 380px;
     max-width: 360px;
     width: 200px;
     height: 200px;
