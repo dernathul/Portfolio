@@ -1,7 +1,7 @@
 import React from "react";
-import UndrawEmailCapture from "react-undraw-illustrations/";
+import {UndrawEmailCapture} from "react-undraw-illustrations";
 
-<UndrawEmailCapture />
+
 
 
 const encode = (data) => {
@@ -36,28 +36,29 @@ const encode = (data) => {
       const { name,  company, email, message } = this.state;
       
       return (
-          
+        
           <div className="ui container">
         <form className="ui form" onSubmit={this.handleSubmit}>
-        
+        <UndrawEmailCapture />
           <div className="form">
             <label>
-              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+            Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
             </label>
+            
           </div>
           <p>
             <label>
-              Company name: <input type="text" name="company" value={company} onChange={this.handleChange} />
+            Company: <input type="text" name="company" value={company} onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label >
-              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+            Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+            Message: <textarea name="message" value={message} onChange={this.handleChange} />
             </label>
           </p>
           
