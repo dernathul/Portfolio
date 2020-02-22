@@ -10,11 +10,30 @@ footer {
     margin-bottom: 0;
     text-align: center;
   }
+
+  .projects {
+    margin-block-start: 20px;
+  }
+
+  .mail {
+    margin-block-start: 50px;
+  }
   
-  .content {
-    margin-left:15%;
-    margin-block-start: 60px;
+  .content1 {
+    margin-left:-90%;
+    margin-block-start: 2px;
     position: absolute;
+  }
+
+  .edu {
+    margin-block-start:50px;
+  }
+
+  .about {
+    margin-block-start: 60px;
+  }
+  .exp {
+    margin-block-start: 50px;
   }
 
 h1 {

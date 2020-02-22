@@ -32,12 +32,17 @@ class Projects extends Component {
       <div className="ui main container">
         <div className="ui stackable two column grid">
           <div className="column">
-        
-            <UndrawProgramming />
+          
          
           </div>
           <div className="column">
-            <h1 className="ui header">My Projects</h1>
+          <div class='content1'>
+            <UndrawProgramming />
+            </div>
+            <div>
+              ------------------------------
+            </div>
+            <h1>My Projects</h1>
             <p>
               I started my journey in IT by working as a tester and technician
               in a Stockholm Start Up called Perific Technologies AB and at the

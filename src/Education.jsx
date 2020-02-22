@@ -34,7 +34,9 @@ class Education extends Component {
       <div className="ui main container" style={{color: "red"}}>
         <div className="ui stackable two column grid">
           <div className="column">
+          <div class= 'edu'>
             <UndrawUpload />
+            </div>
           </div>
           <div className="column">
             <h1 className="ui header" style={{color: "red"}}>Education</h1>

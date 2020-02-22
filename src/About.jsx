@@ -5,15 +5,18 @@ const About = () => {
   return (
     <div className="ui main container">
       <div className="ui stackable two column grid">
-      <div className="column">
-        
-        
-
-      <div class='content'>
+      <div className="column">  
+      <div class='about'>
       <UndrawBeTheHero alt="banner"/>
       </div>
       </div>
         <div className="column">
+        <div>
+          -----------
+        </div>
+        <div>
+          -----------
+        </div>
         
           <h1 className="ui header">Hello, my name is Lau</h1>
           <p>

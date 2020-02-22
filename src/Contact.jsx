@@ -39,7 +39,9 @@ const encode = (data) => {
         
           <div className="ui container">
         <form className="ui form" onSubmit={this.handleSubmit}>
+          <div class='mail'>
         <UndrawEmailCapture />
+        </div>
           <div className="form">
             <label>
             Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
