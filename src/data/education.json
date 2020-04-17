@@ -2,7 +2,7 @@
   {
     "id": 1,
     "education": "Full Stack programmering, Craft Academy, Göteborg.",
-    "year": "2020, currently coursing it"
+    "year": "2020"
   },
   {
     "id": 2,
@@ -18,15 +18,5 @@
     "id": 4,
     "education": "Sociology, UPLA, Valparaíso, Chile.",
     "year": "2003/2004"
-  },
-  {
-    "id": 5,
-    "education": "Bartender Course, ITPSA institute, Valparaíso, Chile",
-    "year": "2002"
-  },
-  {
-    "id": 6,
-    "education": "Humanist High School, Chile",
-    "year": "1996/2000"
   }
 ]
